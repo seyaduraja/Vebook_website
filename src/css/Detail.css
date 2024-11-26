@@ -34,7 +34,7 @@
 
 @media (max-width: 1000px) {
     .container1{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding-left: 10px;
         padding-right: 10px;
         gap: 30px;
