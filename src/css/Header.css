@@ -1,8 +1,8 @@
 
 .titleimage{
     position: relative;
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh;
+    width: 100%; */
 
 }
 
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 
 }
 
@@ -44,3 +45,4 @@ svg path {
         stroke-dashoffset: 0;
     }
 }
+
