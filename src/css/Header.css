@@ -30,6 +30,12 @@ svg path {
     animation: textAnimation 3s ease-in-out 1 forwards;
 }
 
+@media (max-width:1000px) {
+    svg {
+        width: 350px;
+    }
+}
+
 @keyframes textAnimation{
     0%{
         stroke-dashoffset: 450;

@@ -17,7 +17,7 @@ function card() {
     {/* card section */}
     <div className='flex justify-center  gap-[80px] lg:justify-around lg:gap-0 items-center my-[50px] flex-col lg:flex-row '>
         {/* card 1 */}
-        <div className="bg-[#00050e] h-[400px] w-[320px] rounded-xl  shadow-2xl shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
+        <div id='block' className="bg-[#00050e] h-[400px] w-[320px] rounded-xl  shadow-sm outline-offset-4 shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
               <DotLottieReact
                 src="https://lottie.host/89e786d8-85fe-4d01-8661-5cfb4b24b3d3/OTifFcPUOI.lottie"
                 loop
@@ -30,7 +30,7 @@ function card() {
         </div>     
 
       {/* card2 */}
-      <div className="bg-[#00050e] h-[400px] w-[320px] rounded-xl shadow-2xl shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
+      <div id='block' className="bg-[#00050e] h-[400px] w-[320px] rounded-xl shadow-sm shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
         <DotLottieReact
           src="https://lottie.host/0c277c11-2869-4beb-a422-161dca8e7cc4/8flkI519Sz.lottie"
           loop
@@ -42,7 +42,7 @@ function card() {
       </div>
 
        {/* card3 */}
-       <div className="bg-[#00050e] h-[400px] w-[320px] rounded-xl  shadow-2xl shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
+       <div id='block' className="bg-[#00050e] h-[400px] w-[320px] rounded-xl  shadow-sm shadow-slate-900 flex flex-col justify-center items-center gap-[10px]">
           <DotLottieReact
               src="https://lottie.host/baa13ab0-ee22-4c3d-b1b4-715e055b7a1a/EjgVBSIupZ.lottie"
               loop
