@@ -1,11 +1,3 @@
-// import Spline from '@splinetool/react-spline';
-
-// export default function Animation() {
-//   return (
-//     <Spline scene="https://prod.spline.design/Z2a3-ve8FFvFP46E/scene.splinecode" />
-//   );
-// }
-
 import React, { Suspense } from 'react';
 
 const Spline = React.lazy(() => import('@splinetool/react-spline'));

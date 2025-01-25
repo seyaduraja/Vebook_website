@@ -1,8 +1,12 @@
-import Header from "./components/Header"
-import Card from "./components/card"
-import Info from "./components/Detail"
-import Animate from "./components/Animation"
 
+
+
+import React from "react"
+
+const Animate = React.lazy(() => import('./components/Animation'))
+const Header = React.lazy(() => import('./components/Header'))
+const Card = React.lazy(() => import('./components/card'))
+const Info = React.lazy(() => import('./components/Detail'))
 
 function App() {
 
