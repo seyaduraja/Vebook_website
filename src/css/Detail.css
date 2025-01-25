@@ -1,95 +1,11 @@
-.container1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    margin-top: 200px;
-    margin-bottom: 150px;
-    gap: 170px;
-    background-image: 
-      linear-gradient(
-        to top,#00050e,  #001F4D, #00050e
-      )
-    ;
+#container1 {
+  background-image:
+    linear-gradient(to top, #00050e, #001F4D, #00050e);
 }
 
-.container2{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    gap: 170px;
-    margin-bottom: 150px;
-    background-image: 
-      linear-gradient(
-        to bottom,#00050e,  #001F4D, #00050e
-      )
-
-
-    ;
+#container2 {
+  background-image:
+    linear-gradient(to bottom, #00050e, #001F4D, #00050e);
 }
 
-@media (max-width: 1000px) {
-    .container1{
-        flex-direction: column-reverse;
-        padding-left: 10px;
-        padding-right: 10px;
-        gap: 30px;
-        padding-bottom: 100px;
-        margin-top: 150px;
-    }
-
-    .container2{
-        flex-direction: column;
-        padding-left: 10px;
-        padding-right: 10px;
-        gap: 30px;
-    }
-}
-
-#slider1 {
-  animation: slide1 linear;
-  animation-timeline: view();
-  animation-range: entry 0 cover 50%;
-}
-
-@keyframes slide1 {
-  from{
-      opacity: 0 ;
-      transform: translateX(-100px);
-  }
-
-  to {
-      opacity: 1;
-      transform: translateX(0px);
-      
-  }
-}
-
-#slider2 {
-  animation: slide2 linear;
-  animation-timeline: view();
-  animation-range: entry 0 cover 50%;
-}
-
-@keyframes slide2 {
-  from{
-      opacity: 0 ;
-      transform: translateX(100px);
-  }
-
-  to {
-      opacity: 1;
-      transform: translateX(0px);
-      
-  }
-}
 

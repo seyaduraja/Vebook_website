@@ -5,8 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        BookingButton: 'rgba(0, 79, 255, 0.8)',
+      },
+    },
   },
   plugins: [],
-}
-
+};
